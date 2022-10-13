@@ -68,11 +68,26 @@ body {
 
 .content-three {
     display: flex;
-    border: 2px solid red;
-    padding: 1em;
-    padding-left: 300px;
-    padding-right: 300px;
+    flex-direction: column;
+    padding: 100px 300px;
+    background: #E5E7EB;
+    
+}
 
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 900px;
+}
+
+.author-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 900;
+    width: 900px;
 }
 
 .content-four {
